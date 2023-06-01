@@ -265,7 +265,7 @@ function Education() {
           <div className=" text-sm text-gray-400 mt-0.5">September2021 - May 2024</div>
          
           <div className="text-sm text-gray-300 font-bold mt-1">
-            Licence Degree in IOT and Embedded Systems
+            license Degree in IOT and Embedded Systems
           </div>
         </li>
       </ul>
