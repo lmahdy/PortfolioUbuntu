@@ -5,7 +5,7 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Helmi Lakahder -  Dev</title>
+            <title>Helmi Lakhder -  Dev</title>
             <meta charSet="utf-8" />
             <meta name="title" content="Helmi Lakhder Portfolio - Front-end Dev" />
             <meta name="description"
