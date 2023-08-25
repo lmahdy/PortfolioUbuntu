@@ -203,7 +203,7 @@ function About() {
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
-          <span className="text-pink-600 font-bold">Front-end Developer</span>
+          <span className="text-pink-600 font-bold">Back-End Developerf</span>
         </div>
       </div>
       <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -213,9 +213,9 @@ function About() {
       <ul className=" mt-4 mb-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc">
           I'm a <span className=" font-medium">self taught</span> 
-          developer , I design and develop websites and web applications using
-          HTML, CSS and JavaScript. Experienced with mobile-first and responsive
-          web design, with basic knowledge of Django
+          developer , I love building Server side logic and infrastructure
+          
+          
         , I'm looking for better opportunities! ( Hit me up{" "}
           <a className="text-underline" href="mailto:lakhder.mohammedhelmi@istic.ucar.tn">
             <u>@lakhder.mohammedhelmi@istic.ucar.tn</u>
