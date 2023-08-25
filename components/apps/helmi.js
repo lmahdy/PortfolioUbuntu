@@ -203,7 +203,7 @@ function About() {
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
-          <span className="text-pink-600 font-bold">Back-End Developerf</span>
+          <span className="text-pink-600 font-bold">Back-End Developer</span>
         </div>
       </div>
       <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -212,8 +212,8 @@ function About() {
       </div>
       <ul className=" mt-4 mb-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc">
-          I'm a <span className=" font-medium">self taught</span> 
-          developer , I love building Server side logic and infrastructure
+         
+         I love building Server side logic and infrastructure
           
           
         , I'm looking for better opportunities! ( Hit me up{" "}
