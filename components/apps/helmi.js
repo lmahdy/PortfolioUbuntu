@@ -233,7 +233,7 @@ function About() {
           {" "}
           And I also have interest in Problem Solving and Competitive Programming
         </li>
-       <li style={{marginTop: "0.3rem",  display: 'flex',justifyContent: 'center'  }} >
+       <li style={{marginTop: "1.2rem",  display: 'flex',justifyContent: 'center'  }} >
 
         <a href="https://github.com/HelmiDev03" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
         <FontAwesomeIcon icon={faGithub} size="lg" />
