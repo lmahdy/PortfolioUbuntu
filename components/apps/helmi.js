@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faInstagram ,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons';
 
 export class AboutEslam extends Component {
   constructor() {
@@ -242,6 +244,27 @@ function About() {
         <li className=" mt-3 list-star">
           {" "}
           And I also have interest in Problem Solving and Competitive Programming
+        </li>
+       <li style={{marginTop: "0.3rem",  display: 'flex',justifyContent: 'center'  }} >
+
+        <a href="https://github.com/HelmiDev03" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
+        <FontAwesomeIcon icon={faGithub} size="lg" />
+        </a>
+        <a href="https://www.linkedin.com/in/helmipl/?originalSubdomain=tn" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
+        <FontAwesomeIcon icon={faLinkedin} size="lg" />
+        </a>
+        <a href="https://twitter.com/Helmi0128" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
+        <FontAwesomeIcon icon={faTwitter} size="lg" />
+        </a>
+        <a href="https://www.instagram.com/thisis_helmi/" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
+        <FontAwesomeIcon icon={faInstagram} size="lg" />
+        </a>
+       
+       
+         
+       
+         
+         
         </li>
       </ul>
     </>
