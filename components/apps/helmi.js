@@ -228,19 +228,7 @@ function About() {
           {" "}
           I enjoy building awesome softwares that solve practical problems.
         </li>
-        <li className=" mt-3 list-time">
-          {" "}
-          When I am not coding my next project, I like to spend my time watching
-          movies, playing video games or watching{" "}
-          <a
-            href="https://www.youtube.com/@DroosOnline4u"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            mr Abouzid videos.
-          </a>
-        </li>
+      
         <li className=" mt-3 list-star">
           {" "}
           And I also have interest in Problem Solving and Competitive Programming
