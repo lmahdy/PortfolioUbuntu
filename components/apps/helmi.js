@@ -219,8 +219,8 @@ function About() {
           
           
         , I'm looking for better opportunities! ( Hit me up{" "}
-          <a className="text-underline" href="mailto:lakhder.mohammedhelmi@istic.ucar.tn">
-            <u>@lakhder.mohammedhelmi@istic.ucar.tn</u>
+          <a className="text-underline" href="mailto:helmipaty@gmail.com">
+            <u>helmipaty@gmail.com</u>
           </a>{" "}
           :) )
         </li>
