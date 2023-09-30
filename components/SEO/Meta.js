@@ -7,9 +7,9 @@ export default function Meta() {
            /* Primary Meta Tags */
             <title>Helmi Lakhder -  Dev</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Helmi Lakhder Portfolio - Front-end Dev" />
+            <meta name="title" content="Helmi Lakhder" />
             <meta name="description"
-                content="Helmi Lakahder's (Helmi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Helmi Lakahder's  Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="author" content="Helmi Lakahder(Helmi)" />
             <meta name="keywords"
                 content="Helmi Lakahder, Helmi Lakahder's portfolio, helmi linux, ubuntu portfolio, Helmi Lakhder protfolio,Helmi Lakhder , Helmi Lakhder, Helmi ubuntu, Helmi Lakhder ubuntu portfolio" />
