@@ -11,6 +11,8 @@ export default function LockScreen(props) {
     "wall-6": "./images/wallpapers/wall-6.webp",
     "wall-7": "./images/wallpapers/wall-7.webp",
     "wall-8": "./images/wallpapers/wall-8.webp",
+    "wall-9": "./images/wallpapers/wall-9.webp",
+    "wall-10": "./images/wallpapers/IMG_20230915_000027%20(1).webp",
   };
 
   if (props.isLocked) {
