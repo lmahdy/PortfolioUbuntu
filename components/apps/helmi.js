@@ -236,19 +236,20 @@ function About() {
           And I also have interest in Problem Solving and Competitive Programming
         </li>
        <li style={{marginTop: "2.2rem",  display: 'flex',justifyContent: 'center'  }} >
+         <a href="https://github.com/HelmiDev03" style={{ marginRight: "1rem", color: "#fff", fontWeight: "bold" }}>
+  <FontAwesomeIcon icon={faGithub} size="lg" />
+</a>
+<a href="https://www.linkedin.com/in/helmipl/?originalSubdomain=tn" style={{ marginRight: "1rem", color: " #0e76a8 ", fontWeight: "bold" }}>
+  <FontAwesomeIcon icon={faLinkedin} size="lg" />
+</a>
+<a href="https://twitter.com/Helmi0128" style={{ marginRight: "1rem", color: "#1DA1F2", fontWeight: "bold" }}>
+  <FontAwesomeIcon icon={faTwitter} size="lg" />
+</a>
+<a href="https://www.instagram.com/thisis_helmi/" style={{ marginRight: "1rem", color: "#C13584", fontWeight: "bold" }}>
+  <FontAwesomeIcon icon={faInstagram} size="lg" />
+</a>
 
-        <a href="https://github.com/HelmiDev03" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
-        <FontAwesomeIcon icon={faGithub} size="lg" />
-        </a>
-        <a href="https://www.linkedin.com/in/helmipl/?originalSubdomain=tn" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
-        <FontAwesomeIcon icon={faLinkedin} size="lg" />
-        </a>
-        <a href="https://twitter.com/Helmi0128" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
-        <FontAwesomeIcon icon={faTwitter} size="lg" />
-        </a>
-        <a href="https://www.instagram.com/theneongeek/" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
-        <FontAwesomeIcon icon={faInstagram} size="lg" />
-        </a>
+   
          <a href="https://leetcode.com/HelmiDev/" style={{ marginRight: "1rem", marginTop: "-0.1rem",color: "#FFA116", fontWeight: "bold" }}>
            <SiLeetcode size="1.5em" />
               </a>
