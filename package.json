@@ -23,8 +23,7 @@
     "react-draggable": "^4.4.4",
     "react-ga": "^3.3.0",
     "react-onclickoutside": "^6.11.2",
-    
-    
+    "react-icons": "^4.3.1" // Added line for react-icons
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
