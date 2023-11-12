@@ -245,7 +245,7 @@ function About() {
 <a href="https://twitter.com/Helmi0128" style={{ marginRight: "1rem", color: "#1DA1F2", fontWeight: "bold" }}>
   <FontAwesomeIcon icon={faTwitter} size="lg" />
 </a>
-<a href="https://www.instagram.com/thisis_helmi/" style={{ marginRight: "1rem", color: "#C13584", fontWeight: "bold" }}>
+<a href="https://www.instagram.com/theneongeek/" style={{ marginRight: "1rem", color: "#C13584", fontWeight: "bold" }}>
   <FontAwesomeIcon icon={faInstagram} size="lg" />
 </a>
 
