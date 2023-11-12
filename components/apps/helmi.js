@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ReactGA from "react-ga";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faInstagram ,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons';
+import { SiLeetcode } from 'react-icons/si';
+
 
 export class AboutEslam extends Component {
   constructor() {
@@ -247,6 +249,10 @@ function About() {
         <a href="https://www.instagram.com/theneongeek/" style={{ marginRight: "1rem",color: "#ff69b4", fontWeight: "bold" }}>
         <FontAwesomeIcon icon={faInstagram} size="lg" />
         </a>
+         <a href="https://leetcode.com/HelmiDev/" style={{ marginRight: "1rem", marginTop: "-0.1rem",color: "#FFA116", fontWeight: "bold" }}>
+           <SiLeetcode size="1.5em" />
+              </a>
+
        
        
          
@@ -383,7 +389,7 @@ function Projects() {
         "Html",
         "Css",
         "Python",
-        "Djaango",
+        "Django",
         "Cloudinary",
         "PostgreSQL",
         "Render",
