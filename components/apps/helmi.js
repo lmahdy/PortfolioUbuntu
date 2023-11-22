@@ -379,26 +379,27 @@ function Skills() {
 
 function Projects() {
   const project_list = [
-    {
-      name: "HMKSOCIALHUB",
-      date: "Mars 03, 2023",
-      link: "https://github.com/HelmiDev03/Social-Media-Web-App",
+       {
+      name: "Insurance Agency Management System",
+      date: "Junea 2023",
+      link: "https://github.com/HelmiDev03/InsuranceAgencyManagementSystem",
       description: [
-        "HMKSOCIALHUB is a social networking website designed to connect individuals and foster a sense of community. The platform requires mandatory registration, ensuring a secure and personalized experience for each user",
+        "The insurance management system is designed to facilitate and streamline the process of home insurance subscription and request handling. It offers an intuitive and efficient interface for users to submit insurance requests and seamlessly manages the responses for added home insurance requests.",
       ],
       domains: [
         "Html",
-        "Css",
+        "Bootstrap",
         "Python",
-        "Django",
-        "Cloudinary",
-        "PostgreSQL",
-        "Render",
+        "Django",,
+        "SQLite3",
+        "PrismJs",
+        "ChartJs",
+        "Face Recognition",
       ],
     },
-    {
+       {
       name: "HelmiPredico",
-      date: "Avril  13, 2023",
+      date: "April 2023",
       link: "https://github.com/HelmiDev03/HelmiPredico",
       description: [
         "Hospital Management System and General Disease Prediction based on symptoms provided by patient",
@@ -414,6 +415,24 @@ function Projects() {
         "Machine Learning",
       ],
     },
+    {
+      name: "HMKSOCIALHUB",
+      date: "March 2023",
+      link: "https://github.com/HelmiDev03/Social-Media-Web-App",
+      description: [
+        "HMKSOCIALHUB is a social networking website designed to connect individuals and foster a sense of community. The platform requires mandatory registration, ensuring a secure and personalized experience for each user",
+      ],
+      domains: [
+        "Html",
+        "Css",
+        "Python",
+        "Django",
+        "Cloudinary",
+        "PostgreSQL",
+        "Render",
+      ],
+    },
+ 
     
   ];
 
