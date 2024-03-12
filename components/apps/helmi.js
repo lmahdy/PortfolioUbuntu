@@ -198,7 +198,7 @@ function About() {
         <img
           className="w-full"
           src="./images/logos/ah.jpeg"
-          alt="eslam mohamed Logo"
+          alt="helmi Logo"
         />
       </div>
       <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
@@ -357,18 +357,18 @@ function Skills() {
           <div className="flex flex-wrap justify-center items-start w-full mt-2">
             <img
               className=" m-1"
-              src="//img.shields.io/badge/-Selenium-43B02A?style=flat&logo=selenium&logoColor=white)](https://www.selenium.dev/"
-              alt="eslam next"
+              src="https://img.shields.io/badge/-Express.js-000000?style=flat&logo=express&logoColor=white)](https://expressjs.com/)"
+              alt="helmi express"
             />
             <img
               className=" m-1"
               src="//img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white)](https://www.djangoproject.com/"
-              alt="eslam react"
+              alt="helmi django"
             />
             <img
               className="m-1"
-              src="//img.shields.io/badge/-WebDriver-4886B0?style=flat&logo=webdriver&logoColor=white)](https://www.selenium.dev/documentation/en/webdriver/"
-              alt="eslam tailwind css"
+              src="https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)"
+              alt="helmi next"
             />
           </div>
         </div>
