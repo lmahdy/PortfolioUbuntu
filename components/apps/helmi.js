@@ -379,6 +379,20 @@ function Skills() {
 
 function Projects() {
   const project_list = [
+     {
+      name: "Role Management System",
+      date: "March 2024",
+      link: "https://github.com/HelmiDev03/ReduxAuthentication",
+      description: [
+        "A role management system project involves creating software to define and assign user roles, streamlining access control and permissions within an organization or application. It aims to enhance security and efficiency by allowing administrators to easily manage roles and permissions",
+      ],
+      domains: [
+        "Nextjs",
+        "Expressjs",,
+        "MongoDB",
+        "Redux",
+      ],
+    },
        {
       name: "Insurance Agency Management System",
       date: "June 2023",
