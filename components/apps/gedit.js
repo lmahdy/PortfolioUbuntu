@@ -11,7 +11,18 @@ export class Gedit extends Component {
   }
   
   componentDidMount() {
-    emailjs.init("4Of7fDOykuvGJvpWt");
+    emailjs.init({
+  publicKey: 'JwFYIIXCJU3DRCUGp',
+  // Do not allow headless browsers
+  blockHeadless: true,
+ 
+  limitRate: {
+    // Set the limit rate for the application
+    id: 'app',
+    // Allow 1 request per 10s
+    throttle: 10000,
+  },
+});
   }
 
   sendMessage = async () => {
@@ -40,8 +51,8 @@ export class Gedit extends Component {
 
     this.setState({ sending: true });
 
-    const serviceID = "service_86wkk35" ;
-    const templateID = "template_ccx01lr" ;
+    const serviceID = "service_vhqory4" ;
+    const templateID = "service_vhqory4" ;
     const userId = "JwFYIIXCJU3DRCUGp" ;
     const templateParams = {
       from_name: name,
