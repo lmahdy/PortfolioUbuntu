@@ -280,7 +280,7 @@ function Education() {
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
             Higher Institute of Information Technologies and Communications 
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">September2021 - May 2024</div>
+          <div className=" text-sm text-gray-400 mt-0.5">September 2021 - May 2024</div>
          
           <div className="text-sm text-gray-300 font-bold mt-1">
             license Degree in IOT and Embedded Systems (2x Major De Promotion 2021/2022 & 2022/2023 )
