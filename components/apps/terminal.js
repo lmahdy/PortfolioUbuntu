@@ -25,30 +25,28 @@ export class Terminal extends Component {
       books: [
         "Eric-Jorgenson_The-Almanack-of-Naval-Ravikant.pdf",
         "Elon Musk: How the Billionaire CEO of SpaceX.pdf",
-        "The $100 Startup_CHRIS_GUILLEBEAU.pdf",
-        "The_Magic_of_Thinking_Big.pdf",
+        "Taraji Ya Dawla",
+        "الفقر والفرعنة",
       ],
       skills: [
-        "Front-end development",
+        "Tbal3it",
         "React.js",
-        "jQuery",
+        "Next.js",
+        "Django",
         "Flutter",
         "Express.js",
-        "SQL",
+        "POSTGRESQL",
         "Firebase",
         "MongoDB",
-        "Node.js",
         "Git",
         "Github",
-        "HTML",
-        "CSS",
       ],
       projects: [
         "hmksocialhub",
         "helmipredico",
       ],
-      interests: ["Software Engineering", "Mobile Development"],
-      languages: ["Javascript"],
+      interests: ["Software Engineering", "Cyber Security ", "Machine Learning","Artificial Intelligence"],
+      languages: ["English",  "French", "German","Arabic",],
     };
     this.state = {
       terminal: [],
@@ -246,7 +244,7 @@ export class Terminal extends Component {
           this.current_directory += "/" + rest;
           this.curr_dir_name = rest;
         } else if (rest === ".." || rest === "../") {
-          result = "Type 'cd' to go back 😅";
+          result = "Type 'cd' to go back baby 😅";
           break;
         } else {
           result = `bash: cd: ${words}: No such file or directory`;

@@ -207,7 +207,7 @@ function About() {
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
-          <span className="text-pink-600 font-bold">Back-End Developer</span>
+          <span className="text-pink-600 font-bold">Software Developer</span>
         </div>
       </div>
       <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
