@@ -278,7 +278,7 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Higher Institute of Information Technologies and Communications 
+            Higher Institute of Information Technologies and Communications - ISTIC
           </div>
           <div className=" text-sm text-gray-400 mt-0.5">September 2021 - May 2024</div>
          
