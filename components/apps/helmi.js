@@ -217,24 +217,13 @@ function About() {
       <ul className=" mt-4 mb-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc">
          
-         I love building Server side logic and infrastructure
-          
-          
-        , I'm looking for better opportunities! ( Hit me up{" "}
-          <a className="text-underline" href="mailto:helmipaty@gmail.com">
-            <u>helmipaty@gmail.com</u>
+         I love building Server Side Logic and Infrastructure ( Hit me up{" "}
+          <a className="text-underline" href="mailto:helmilakhder@gmail.com">
+            <u>helmilakhder@gmail.com</u>
           </a>{" "}
-          :) )
+           )
         </li>
-        <li className=" mt-3 list-building">
-          {" "}
-          I enjoy building awesome softwares that solve practical problems.
-        </li>
-      
-        <li className=" mt-3 list-star">
-          {" "}
-          And I also have interest in Problem Solving and Competitive Programming
-        </li>
+        
        <li style={{marginTop: "2.2rem",  display: 'flex',justifyContent: 'center'  }} >
          <a href="https://github.com/HelmiDev03" style={{ marginRight: "1rem", color: "#fff", fontWeight: "bold" }}>
   <FontAwesomeIcon icon={faGithub} size="lg" />
@@ -283,7 +272,7 @@ function Education() {
           <div className=" text-sm text-gray-400 mt-0.5">September 2021 - May 2024</div>
          
           <div className="text-sm text-gray-300 font-bold mt-1">
-            license Degree in IOT and Embedded Systems (2x Major De Promotion 2021/2022 & 2022/2023 )
+           Bachelor Degree in IOT and Embedded Systems (2x Major De Promotion 2021/2022 & 2022/2023 )
           </div>
         </li>
       </ul>
@@ -365,10 +354,16 @@ function Skills() {
               src="//img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white)](https://www.djangoproject.com/"
               alt="helmi django"
             />
+            
             <img
               className="m-1"
               src="https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)"
               alt="helmi next"
+            />
+             <img
+              className="m-1"
+              src="https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev/)"
+              alt="helmi flutter"
             />
           </div>
         </div>
@@ -379,18 +374,30 @@ function Skills() {
 
 function Projects() {
   const project_list = [
-     {
-      name: "Role Management System",
-      date: "March 2024",
-      link: "https://github.com/HelmiDev03/ReduxAuthentication",
+    {  name: "Freelance Project",
+      date: "September 2024",
+      link: "https://github.com/lmahdy/Management-System",
       description: [
-        "A role management system project involves creating software to define and assign user roles, streamlining access control and permissions within an organization or application. It aims to enhance security and efficiency by allowing administrators to easily manage roles and permissions",
+        "My partner and I are developing a supermarket management system for small business owners in our area. The platform will help them manage sales, track inventory, and generate reports for better financial oversight. It will also streamline client management through a customer database and loyalty programs, while offering tools to efficiently track supplier orders and payments. Our goal is to provide an easy-to-use, web-based solution that empowers local supermarket owners to optimize their operations and improve overall efficiency",
+      ],
+      domains: [
+        "Django",
+        "PostgreSQL",
+      ],
+    },
+     {
+      name: "End-Of-Study Project",
+      date: "May 2024",
+      link: "https://github.com/HelmiDev03/Client",
+      description: [
+        "A SaaS solution to streamline various HR functionalities for companies, offering both generic and personalized features, this solution is supported by a back-office application to monitor and track client activities.",
       ],
       domains: [
         "Nextjs",
         "Expressjs",,
         "MongoDB",
         "Redux",
+        "TailwindCss"
       ],
     },
        {
@@ -412,7 +419,7 @@ function Projects() {
       ],
     },
        {
-      name: "HelmiPredico",
+      name: "HelmiPredico-V2",
       date: "April 2023",
       link: "https://github.com/HelmiDev03/HelmiPredico",
       description: [
@@ -422,11 +429,24 @@ function Projects() {
         "Html",
         "Css",
         "Python",
-        "Djaango",
+        "Django",
         "Cloudinary",
         "PostgreSQL",
         "Render",
         "Machine Learning",
+      ],
+    },
+    {
+      name: "HelmiPredico-V1",
+      date: "April 2023",
+      link: "https://github.com/HelmiDev03/FireBaseAuth",
+      description: [
+        "Mobile application designed to simplify and automate interactions between doctors and patients for more efficient healthcare management.",
+      ],
+      domains: [
+        "Flutter",
+        "FireBase",
+        
       ],
     },
     {
