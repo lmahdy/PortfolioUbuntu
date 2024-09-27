@@ -272,17 +272,20 @@ function Education() {
           <div className=" text-sm text-gray-400 mt-0.5">September 2021 - May 2024</div>
          
           <div className="text-sm text-gray-300 font-bold mt-1">
-<<<<<<< HEAD
-           Bachelor Degree in IOT and Embedded Systems (2x Major De Promotion 2021/2022 & 2022/2023 )
-=======
-            license Degree in IOT and Embedded Systems ( 2x Major De Promotion 2021/2022 & 2022/2023 )
->>>>>>> 469461dd446e94663a0ef9b897114858cc854b5b
+
+           Bachelor Degree in IOT and Embedded Systems (2x Major De Promotion 2021/2022 & 2022/2023 ) 
+           
+
           </div>
         </li>
       </ul>
     </>
   );
 }
+
+
+
+
 function Skills() {
   return (
     <>
