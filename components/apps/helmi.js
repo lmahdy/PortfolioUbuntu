@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faInstagram ,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { SiLeetcode } from 'react-icons/si';
 
 
@@ -10,7 +10,7 @@ export class AboutEslam extends Component {
     super();
     this.screens = {};
     this.state = {
-      screen: () => {},
+      screen: () => { },
       active_screen: "about", // by default 'about' screen is active
       navbar: false,
     };
@@ -203,7 +203,7 @@ function About() {
       </div>
       <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
         <div>
-         <span className="font-bold"> Helmi Lakhder</span> 
+          <span className="font-bold"> Helmi Lakhder</span>
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
@@ -216,39 +216,39 @@ function About() {
       </div>
       <ul className=" mt-4 mb-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc">
-         
-         I love building Server Side Logic and Infrastructure ( Hit me up{" "}
+
+          I love building Server Side Logic and Infrastructure ( Hit me up{" "}
           <a className="text-underline" href="mailto:helmilakhder@gmail.com">
             <u>helmilakhder@gmail.com</u>
           </a>{" "}
-           )
+          )
         </li>
-        
-       <li style={{marginTop: "2.2rem",  display: 'flex',justifyContent: 'center'  }} >
-         <a href="https://github.com/HelmiDev03" style={{ marginRight: "1rem", color: "#fff", fontWeight: "bold" }}>
-  <FontAwesomeIcon icon={faGithub} size="lg" />
-</a>
-<a href="https://www.linkedin.com/in/helmipl/?originalSubdomain=tn" style={{ marginRight: "1rem", color: " #0e76a8 ", fontWeight: "bold" }}>
-  <FontAwesomeIcon icon={faLinkedin} size="lg" />
-</a>
-<a href="https://twitter.com/Helmi0128" style={{ marginRight: "1rem", color: "#1DA1F2", fontWeight: "bold" }}>
-  <FontAwesomeIcon icon={faTwitter} size="lg" />
-</a>
-<a href="https://www.instagram.com/theneongeek/" style={{ marginRight: "1rem", color: "#C13584", fontWeight: "bold" }}>
-  <FontAwesomeIcon icon={faInstagram} size="lg" />
-</a>
 
-   
-         <a href="https://leetcode.com/HelmiDev/" style={{ marginRight: "1rem", marginTop: "-0.1rem",color: "#FFA116", fontWeight: "bold" }}>
-           <SiLeetcode size="1.5em" />
-              </a>
+        <li style={{ marginTop: "2.2rem", display: 'flex', justifyContent: 'center' }} >
+          <a href="https://github.com/HelmiDev03" style={{ marginRight: "1rem", color: "#fff", fontWeight: "bold" }}>
+            <FontAwesomeIcon icon={faGithub} size="lg" />
+          </a>
+          <a href="https://www.linkedin.com/in/helmipl/?originalSubdomain=tn" style={{ marginRight: "1rem", color: " #0e76a8 ", fontWeight: "bold" }}>
+            <FontAwesomeIcon icon={faLinkedin} size="lg" />
+          </a>
+          <a href="https://twitter.com/Helmi0128" style={{ marginRight: "1rem", color: "#1DA1F2", fontWeight: "bold" }}>
+            <FontAwesomeIcon icon={faTwitter} size="lg" />
+          </a>
+          <a href="https://www.instagram.com/theneongeek/" style={{ marginRight: "1rem", color: "#C13584", fontWeight: "bold" }}>
+            <FontAwesomeIcon icon={faInstagram} size="lg" />
+          </a>
 
-       
-       
-         
-       
-         
-         
+
+          <a href="https://leetcode.com/HelmiDev/" style={{ marginRight: "1rem", marginTop: "-0.1rem", color: "#FFA116", fontWeight: "bold" }}>
+            <SiLeetcode size="1.5em" />
+          </a>
+
+
+
+
+
+
+
         </li>
       </ul>
     </>
@@ -270,11 +270,11 @@ function Education() {
             Higher Institute of Information Technologies and Communications - ISTIC
           </div>
           <div className=" text-sm text-gray-400 mt-0.5">September 2021 - May 2024</div>
-         
+
           <div className="text-sm text-gray-300 font-bold mt-1">
 
-           Bachelor Degree in IOT and Embedded Systems (2x Major De Promotion 2021/2022 & 2022/2023 ) 
-           
+            Bachelor Degree in IOT and Embedded Systems (2x Major De Promotion 2021/2022 & 2022/2023 )
+
 
           </div>
         </li>
@@ -297,7 +297,7 @@ function Skills() {
         </div>
       </div>
       <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
-       
+
         <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
           <div>Here are my most frequently used</div>
         </li>
@@ -314,10 +314,44 @@ function Skills() {
         <div className="px-2 w-1/2">
           <div className="flex flex-wrap justify-center items-start w-full mt-2">
             <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white"
+              alt="Python"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-C-00599C?style=flat&logo=c&logoColor=white"
+              alt="C"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"
+              alt="C++"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Dart-00BFFF?style=flat&logo=dart&logoColor=white"
+              alt="Dart"
+            />
+
+
+            <img
               className="m-1"
               src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A"
               alt="eslam javascript"
             />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white"
+              alt="TypeScript"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=redux&logoColor=white"
+              alt="Redux"
+            />
+
+
 
             <a
               href="https://www.google.com/search?q=is+html+a+language%3F"
@@ -343,10 +377,73 @@ function Skills() {
               className="m-1"
             />
             <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"
+              alt="helmi tailwind"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white"
+              alt="helmi bootstrap"
+            />
+            <img
               src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff"
               alt="eslam firebase"
               className="m-1"
             />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white"
+              alt="helmi postgresql"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white"
+              alt="helmi mysql"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"
+              alt="helmi mongodb"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white"
+              alt="Docker"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Apache%20Spark-E35A4B?style=flat&logo=apache-spark&logoColor=white"
+              alt="Apache Spark"
+            />
+
+
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white"
+              alt="Ubuntu"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Cloudera-EB3C00?style=flat&logo=apache&logoColor=white"
+              alt="Cloudera"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Debian-A81D33?style=flat&logo=debian&logoColor=white"
+              alt="helmi debian"
+            />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Node%20RED-F00?style=flat&logo=node-red&logoColor=white"
+              alt="Node-RED"
+            />
+
+
+
+
+
+
           </div>
         </div>
         <div className="px-2 flex flex-wrap items-start w-1/2">
@@ -361,17 +458,23 @@ function Skills() {
               src="//img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white)](https://www.djangoproject.com/"
               alt="helmi django"
             />
-            
+
             <img
               className="m-1"
               src="https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)"
               alt="helmi next"
             />
-             <img
+            <img
               className="m-1"
               src="https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white)](https://flutter.dev/)"
               alt="helmi flutter"
             />
+            <img
+              class="m-1"
+              src="https://img.shields.io/badge/-Selenium-43B02A?style=flat&logo=selenium&logoColor=white"
+              alt="helmi selenium"
+            />
+
           </div>
         </div>
       </div>
@@ -381,7 +484,8 @@ function Skills() {
 
 function Projects() {
   const project_list = [
-    {  name: "Freelance Project",
+    {
+      name: "Freelance Project",
       date: "September 2024",
       link: "https://github.com/lmahdy/Management-System",
       description: [
@@ -392,7 +496,7 @@ function Projects() {
         "PostgreSQL",
       ],
     },
-     {
+    {
       name: "End-Of-Study Project",
       date: "May 2024",
       link: "https://github.com/HelmiDev03/Client",
@@ -401,13 +505,13 @@ function Projects() {
       ],
       domains: [
         "Nextjs",
-        "Expressjs",,
+        "Expressjs", ,
         "MongoDB",
         "Redux",
         "TailwindCss"
       ],
     },
-       {
+    {
       name: "Insurance Agency Management System",
       date: "June 2023",
       link: "https://github.com/HelmiDev03/InsuranceAgencyManagementSystem",
@@ -418,14 +522,14 @@ function Projects() {
         "Html",
         "Bootstrap",
         "Python",
-        "Django",,
+        "Django", ,
         "SQLite3",
         "PrismJs",
         "ChartJs",
         "Face Recognition",
       ],
     },
-       {
+    {
       name: "HelmiPredico-V2",
       date: "April 2023",
       link: "https://github.com/HelmiDev03/HelmiPredico",
@@ -453,7 +557,7 @@ function Projects() {
       domains: [
         "Flutter",
         "FireBase",
-        
+
       ],
     },
     {
@@ -473,8 +577,8 @@ function Projects() {
         "Render",
       ],
     },
- 
-    
+
+
   ];
 
   const tag_colors = {
@@ -548,18 +652,18 @@ function Projects() {
               <div className="flex flex-wrap items-start justify-start text-xs py-2">
                 {project.domains
                   ? project.domains.map((domain, index) => {
-                      const borderColorClass = `border-${tag_colors[domain]}`;
-                      const textColorClass = `text-${tag_colors[domain]}`;
+                    const borderColorClass = `border-${tag_colors[domain]}`;
+                    const textColorClass = `text-${tag_colors[domain]}`;
 
-                      return (
-                        <span
-                          key={index}
-                          className={`px-1.5 py-0.5 w-max border ${borderColorClass} ${textColorClass} m-1 rounded-full`}
-                        >
-                          {domain}
-                        </span>
-                      );
-                    })
+                    return (
+                      <span
+                        key={index}
+                        className={`px-1.5 py-0.5 w-max border ${borderColorClass} ${textColorClass} m-1 rounded-full`}
+                      >
+                        {domain}
+                      </span>
+                    );
+                  })
                   : null}
               </div>
             </div>
