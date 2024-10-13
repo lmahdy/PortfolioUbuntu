@@ -7,6 +7,19 @@ export default function BackgroundImage(props) {
     "wall-3": "./images/wallpapers/wall-3.webp",
     "wall-4": "./images/wallpapers/wall-4.webp",
     "wall-5": "./images/wallpapers/wall-5.webp",
+    "wall-6": "./images/wallpapers/wall-6.webp",
+    "wall-7": "./images/wallpapers/wall-7.webp",
+    "wall-8": "./images/wallpapers/wall-8.webp",
+    "wall-10": "./images/wallpapers/wall-10.webp",
+    "wall-11": "./images/wallpapers/wall-11.webp",
+    "wall-12": "./images/wallpapers/wall-12.webp",
+    "wall-13": "./images/wallpapers/wall-13.webp",
+    "wall-14": "./images/wallpapers/wall-14.webp",
+    "wall-15": "./images/wallpapers/wall-15.webp",
+    "wall-16": "./images/wallpapers/wall-16.webp",
+    "wall-17": "./images/wallpapers/wall-17.webp",
+    "wall-18": "./images/wallpapers/wall-18.webp",
+    "wall-19": "./images/wallpapers/wall-19.webp"
    
   };
   return (
