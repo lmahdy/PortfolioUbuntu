@@ -5,14 +5,14 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Helmi Lakhder -  Dev</title>
+            <title>Mahdi Mzoughi -  Dev</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Helmi Lakhder" />
+            <meta name="title" content="l" />
             <meta name="description"
-                content="Helmi Lakahder's  Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="author" content="Helmi Lakahder(Helmi)" />
+                content="Mahdi Lakahder's  Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="author" content="Mahdi Lakahder(Mahdi)" />
             <meta name="keywords"
-                content="Helmi Lakahder, Helmi Lakahder's portfolio, helmi linux, ubuntu portfolio, Helmi Lakhder protfolio,Helmi Lakhder , Helmi Lakhder, Helmi ubuntu, Helmi Lakhder ubuntu portfolio" />
+                content="Mahdi Lakahder, Mahdi Lakahder's portfolio, Mahdi linux, ubuntu portfolio, Mahdi Mzoughi protfolio,Mahdi Mzoughi , Mahdi Mzoughi, Mahdi ubuntu, Mahdi Mzoughi ubuntu portfolio" />
             <meta name="robots" content="index, follow" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="English" />
@@ -22,25 +22,24 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/e-logo.svg" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="Helmi Lakhder Portfolio - Front-end Dev" />
+            <meta itemProp="name" content="Mahdi Mzoughi Portfolio - Front-end Dev" />
             <meta itemProp="description"
-                content="Helmi Lakhder's (Helmi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Mahdi Mzoughi's (Mahdi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/e-logo.svg" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="Helmi Lakhder-Dev" />
+            <meta name="twitter:title" content="Mahdi Mzoughi-Dev" />
             <meta name="twitter:description"
-                content="Helmi Lakhder's (Helmi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="twitter:site" content="Helmi Lakhder" />
-            <meta name="twitter:creator" content="Helmi Lakhder" />
+                content="Mahdi Mzoughi's (Mahdi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="twitter:site" content="Mahdi Mzoughi" />
+            <meta name="twitter:creator" content="Mahdi Mzoughi" />
             <meta name="twitter:image:src" content="images/logos/e-logo.svg" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
-            <meta name="og:title" content="Helmi Lakhder Portfolio - Front-end Dev" />
+            <meta name="og:title" content="Mahdi Mzoughi Portfolio - Front-end Dev" />
             <meta name="og:description"
-                content="Helmi Lakhder's (Helmi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Mahdi Mzoughi's (Mahdi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="og:image" content="images/logos/e-logo.svg" />
-            <meta name="og:url" content="https://github.com/HelmiDev03" />
-            <meta name="og:site_name" content="Helmi Lakhder Personal Portfolio" />
+            <meta name="og:site_name" content="Mahdi Mzoughi Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 

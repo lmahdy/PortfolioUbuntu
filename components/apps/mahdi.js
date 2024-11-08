@@ -69,7 +69,7 @@ export class AboutEslam extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="about Helmi"
+            alt="About Mahdi"
             src="./themes/Yaru/status/about.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
@@ -203,7 +203,7 @@ function About() {
       </div>
       <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
         <div>
-          <span className="font-bold"> Helmi Lakhder</span>
+          <span className="font-bold"> Mahdi Mzoughi</span>
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
@@ -218,28 +218,28 @@ function About() {
         <li className=" list-pc">
 
           I love building Server Side Logic and Infrastructure ( Hit me up{" "}
-          <a className="text-underline" href="mailto:helmilakhder@gmail.com">
-            <u>helmilakhder@gmail.com</u>
+          <a className="text-underline" href="mailto:mahdimzoughi4420@gmail.com">
+            <u>mahdimzoughi4420@gmail.com</u>
           </a>{" "}
           )
         </li>
 
         <li style={{ marginTop: "2.2rem", display: 'flex', justifyContent: 'center' }} >
-          <a href="https://github.com/HelmiDev03" style={{ marginRight: "1rem", color: "#fff", fontWeight: "bold" }}>
+          <a href="https://github.com/lmahdy" style={{ marginRight: "1rem", color: "#fff", fontWeight: "bold" }}>
             <FontAwesomeIcon icon={faGithub} size="lg" />
           </a>
-          <a href="https://www.linkedin.com/in/helmipl/?originalSubdomain=tn" style={{ marginRight: "1rem", color: " #0e76a8 ", fontWeight: "bold" }}>
+          <a href="https://www.linkedin.com/in/lmahdy/" style={{ marginRight: "1rem", color: " #0e76a8 ", fontWeight: "bold" }}>
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
           </a>
-          <a href="https://twitter.com/Helmi0128" style={{ marginRight: "1rem", color: "#1DA1F2", fontWeight: "bold" }}>
+          <a href="https://x.com/mahdi_mzoughi" style={{ marginRight: "1rem", color: "#1DA1F2", fontWeight: "bold" }}>
             <FontAwesomeIcon icon={faTwitter} size="lg" />
           </a>
-          <a href="https://www.instagram.com/theneongeek/" style={{ marginRight: "1rem", color: "#C13584", fontWeight: "bold" }}>
+          <a href="https://www.instagram.com/mahdi__mzoughi__/" style={{ marginRight: "1rem", color: "#C13584", fontWeight: "bold" }}>
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
 
 
-          <a href="https://leetcode.com/HelmiDev/" style={{ marginRight: "1rem", marginTop: "-0.1rem", color: "#FFA116", fontWeight: "bold" }}>
+          <a href="https://leetcode.com/u/Lmahdy/" style={{ marginRight: "1rem", marginTop: "-0.1rem", color: "#FFA116", fontWeight: "bold" }}>
             <SiLeetcode size="1.5em" />
           </a>
 
@@ -273,7 +273,7 @@ function Education() {
 
           <div className="text-sm text-gray-300 font-bold mt-1">
 
-            Bachelor Degree in IOT and Embedded Systems (2x Major De Promotion 2021/2022 & 2022/2023 )
+            Bachelor Degree in IOT and Embedded Systems
 
 
           </div>
@@ -499,60 +499,54 @@ function Projects() {
     {
       name: "End-Of-Study Project",
       date: "May 2024",
-      link: "https://github.com/HelmiDev03/Client",
+      link: "https://github.com/nabilchaabane/ERP-WMS",
       description: [
-        "A SaaS solution to streamline various HR functionalities for companies, offering both generic and personalized features, this solution is supported by a back-office application to monitor and track client activities.",
+        "A custom ERPNext app that streamlines warehouse operations, including inventory management, stock picking, sales, purchasing, and warehouse statistics visualization, improving efficiency and accuracy.",
       ],
       domains: [
-        "Nextjs",
-        "Expressjs", ,
-        "MongoDB",
-        "Redux",
-        "TailwindCss"
-      ],
-    },
-    {
-      name: "Insurance Agency Management System",
-      date: "June 2023",
-      link: "https://github.com/HelmiDev03/InsuranceAgencyManagementSystem",
-      description: [
-        "The insurance management system is designed to facilitate and streamline the process of home insurance subscription and request handling. It offers an intuitive and efficient interface for users to submit insurance requests and seamlessly manages the responses for added home insurance requests.",
-      ],
-      domains: [
-        "Html",
-        "Bootstrap",
+        "Frappe",
+        "MariaDB", ,
         "Python",
-        "Django", ,
-        "SQLite3",
-        "PrismJs",
-        "ChartJs",
-        "Face Recognition",
+        "JavaScript",
+        "ERPNext",
       ],
     },
     {
-      name: "HelmiPredico-V2",
-      date: "April 2023",
-      link: "https://github.com/HelmiDev03/HelmiPredico",
+      name: "BiatTasks",
+      date: "June 2023",
+      link: "https://github.com/lmahdy/technotes-api",
       description: [
-        "Hospital Management System and General Disease Prediction based on symptoms provided by patient",
+        "A MERN application that facilitates theorganization of roles and the execution of tasks withina company in a more efficient and well-organized manner.",
+      ],
+      domains: [
+        "NodeJs",
+        "ExpressJs",
+        "MongoDB",
+        "ReactJs", ,
+        "Redux",
+      ],
+    },
+    {
+      name: "Commerce-Center",
+      date: "April 2023",
+      link: "https://github.com/lmahdy/Commerce-Center",
+      description: [
+        "An engaging e-commerce platform connecting customers and clients, designed to enhance convenience, quality, and seamless interaction for an exceptional shopping experience.",
       ],
       domains: [
         "Html",
         "Css",
         "Python",
         "Django",
-        "Cloudinary",
-        "PostgreSQL",
-        "Render",
-        "Machine Learning",
+        "Sqlite",
       ],
     },
     {
-      name: "HelmiPredico-V1",
+      name: "MahdiHealth",
       date: "April 2023",
-      link: "https://github.com/HelmiDev03/FireBaseAuth",
+      link: "https://github.com/lmahdy/MahdiHealth",
       description: [
-        "Mobile application designed to simplify and automate interactions between doctors and patients for more efficient healthcare management.",
+        "A mobile application for a hospital, featuring a contact form for doctors and a secure authentication system.",
       ],
       domains: [
         "Flutter",
@@ -561,20 +555,18 @@ function Projects() {
       ],
     },
     {
-      name: "HMKSOCIALHUB",
+      name: "MahdybestBack",
       date: "March 2023",
-      link: "https://github.com/HelmiDev03/Social-Media-Web-App",
+      link: "https://github.com/lmahdy/MahdybestBack",
       description: [
-        "HMKSOCIALHUB is a social networking website designed to connect individuals and foster a sense of community. The platform requires mandatory registration, ensuring a secure and personalized experience for each user",
+        "MahdybestBack is a RESTful API that provides a platform for users to share their thoughts about movies and TV shows.",
       ],
       domains: [
         "Html",
         "Css",
-        "Python",
-        "Django",
-        "Cloudinary",
-        "PostgreSQL",
-        "Render",
+        "JavaScript",
+        "NodeJs",
+        "MongoDB",
       ],
     },
 
@@ -678,7 +670,7 @@ function Resume() {
     <iframe
       className="h-full w-full"
       src="./files/cv.pdf"
-      title="helmi lakhder resume"
+      title="Mahdi Mzoughi resume"
       frameBorder="0"
     ></iframe>
   );
